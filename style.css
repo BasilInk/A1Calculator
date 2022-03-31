@@ -137,14 +137,34 @@ body {
 
 @media (max-width: 1100px) {
     #container {
-        background-image: url(vel.jpg);
-        background-repeat: no-repeat;
+        margin: 0 5px;
+        padding: 5px;
         background-position: top;
         background-size: 25%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         overflow: hidden;
+    }
+}
+
+@media (max-width: 600px) {
+    #main {
+        max-width: 350px;
+    }
+
+    #cash {
+        height: 50px;
+        flex: calc(0 0 25% - 10px);
+        width: 350px;
+    }
+
+    #btn2 {
+        height: 50px;
+        flex: calc(0 0 25% - 10px);
+        width: 350px;
+    }
+
+    #btn {
+        height: 50px;
+        flex: calc(0 0 25% - 10px);
+        width: 350px;
     }
 }
