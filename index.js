@@ -6,6 +6,7 @@ const hit = document.getElementById(`hit`);
 const max = document.getElementById(`max`);
 const btn = document.getElementById(`btn`);
 const btn2 = document.getElementById(`btn2`);
+const btn3 = document.getElementById(`btn3`);
 const cash = document.getElementById(`cash`);
 
 function calculate () {    
@@ -74,5 +75,10 @@ function calculate2 () {
 
 };
 
+function reset () {
+    location.reload();
+};
+
 btn.addEventListener(`click`, calculate);
 btn2.addEventListener(`click`, calculate2);
+btn3.addEventListener(`click`, reset);
