@@ -2,33 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100%;
     width: auto;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 #container {
+    padding: 8px;
+    min-height: 100%;
     background-image: url(vel.jpg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 50%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 #main {
+    flex: 1 1 auto;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 400px;
-    max-height: 400px;
 }
 
 #rates {
     margin: 5px 0;
-    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -38,6 +47,7 @@
 }
 
 .rate {
+    height:50px;
     width: calc(33.333% - 10px);
     margin: 5px 0;
     text-align: center;
@@ -47,6 +57,7 @@
 }
 
 #btn {
+    height: 50px;
     flex: calc(0 0 25% - 10px);
     width: 400px;
     margin: 5px 0;
@@ -70,6 +81,7 @@
 }
 
 #btn2 {
+    height: 50px;
     flex: calc(0 0 25% - 10px);
     width: 400px;
     margin: 5px 0;
@@ -93,10 +105,31 @@
 }
 
 #cash {
+    height: 50px;
     flex: calc(0 0 25% - 10px);
     width: 400px;
     margin: 5px 0;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
+}
+
+#tm {
+    height: 35px;
+    width: 35px;
+    margin: 2px;
+    margin-bottom: 0;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    margin-bottom: 0;
+}
+
+#text {
+    margin: 2px;
+    margin-bottom: 0;
 }
