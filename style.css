@@ -1,0 +1,102 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: auto;
+}
+
+#container {
+    background-image: url(vel.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#rates {
+    margin: 5px 0;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: calc (0 0 25% - 10px);
+}
+
+.rate {
+    width: calc(33.333% - 10px);
+    margin: 5px 0;
+    text-align: center;
+    opacity: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#btn {
+    flex: calc(0 0 25% - 10px);
+    width: 400px;
+    margin: 5px 0;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    border-style: none;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: all 0.4s;
+}
+
+#btn:hover {
+    transform: scale(107%);
+    background-size: 200%;
+}
+
+#btn:active {
+    transform: scale(100%);
+    background-size: 100%;
+}
+
+#btn2 {
+    flex: calc(0 0 25% - 10px);
+    width: 400px;
+    margin: 5px 0;
+    background: linear-gradient(to left, #ee0979, #ff6a00);
+    border-style: none;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: all 0.3s;
+}
+
+#btn2:hover {
+    transform: scale(107%);
+    background-size: 200%;
+}
+
+#btn2:active {
+    transform: scale(100%);
+    background-size: 100%;
+}
+
+#cash {
+    flex: calc(0 0 25% - 10px);
+    width: 400px;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
