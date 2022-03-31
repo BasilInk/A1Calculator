@@ -114,12 +114,7 @@ body {
     font-weight: bold;
 }
 
-#tm {
-    height: 35px;
-    width: 35px;
-    margin: 2px;
-    margin-bottom: 0;
-}
+
 
 #footer {
     display: flex;
@@ -130,6 +125,13 @@ body {
 }
 
 #text {
+    margin: 2px;
+    margin-bottom: 0;
+}
+
+#tm {
+    height: 35px;
+    width: 35px;
     margin: 2px;
     margin-bottom: 0;
 }
